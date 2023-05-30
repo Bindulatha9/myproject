@@ -12,7 +12,7 @@
     - name: Install Tomcat
       action: yum name=httpd state=present
     - name: Restart httpd
-      service: name=httpd state= restarted
+      service: name=httpd state=restarted
     - name: Install Git
       action: yum name=git state=present
     - name: clone the repo
